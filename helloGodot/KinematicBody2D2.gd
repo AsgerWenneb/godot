@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
 export (PackedScene) var Bullet
-export var is_active = true
+export var is_active = false
 
 onready var WINDOW = get_viewport().size
 
